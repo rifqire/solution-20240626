@@ -23,7 +23,6 @@ public class Soal2 {
 
         for (int i = 1; i <= n; i++) {
             int currentNum = num;
-            // Print increasing part
             for (int j = 1; j <= i; j++) {
                 System.out.print(currentNum + " ");
                 currentNum++;
